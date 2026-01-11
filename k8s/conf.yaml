@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: config
+  namespace: workshop
+data:
+  SPRING_DATASOURCE_URL: jdbc:postgresql://database-1.cq9wm48y8x32.us-east-1.rds.amazonaws.com:5432/employee_db
